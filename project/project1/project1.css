@@ -15,15 +15,19 @@ header {
   display: flex;
 }
 header .material-symbols-outlined {
-  display: none;
+  /* display: none; */
+  position: absolute;
+  bottom: 37px;
+  right: 100px;
 }
 header .header_sns {
   display: none;
 }
 header img {
   position: absolute;
-  margin-right: 60px;
-  margin-top: 5px;
+  top: 7px;
+  /* margin-right: 10px; */
+  /* margin-top: 5px; */
   right: 80%;
   height: 90%;
 }
@@ -36,6 +40,7 @@ header .ul1 {
   justify-content: space-around;
   width: 70vw;
   background-color: #ffffff;
+  display: none;
 }
 header .ul1 li {
   width: 100%;
@@ -296,6 +301,8 @@ aside .txt .txt-img3 {
   margin: 0 auto;
   display: flex;
   position: relative;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .plus {
   position: relative;
@@ -304,9 +311,10 @@ aside .txt .txt-img3 {
   height: 13rem;
   border-radius: 40px;
   margin: 20px;
+  color: #fff;
 }
 .plus-container .btn-1 a {
-  border: 1px solid #222;
+  border: 1px solid #fff;
   border-radius: 50px;
   text-align: center;
   line-height: 2rem;

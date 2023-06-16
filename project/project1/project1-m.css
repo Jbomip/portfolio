@@ -216,9 +216,13 @@ aside .txt section .txt-btn a {
 }
 .plus-container .plus {
   border-radius: 50px;
-  margin: 5px;
-  width: 40%;
-  height: 10rem;
+  /* margin: 5px; */
+  margin: 20px 0 50px 0;
+  /* margin-bottom: 40px; */
+  width: 45%;
+  /* width: 40%; */
+  height: 12rem;
+  /* height: 10rem; */
   background-color: rgb(255, 158, 48);
   color: #fff;
   display: flex;
@@ -227,8 +231,9 @@ aside .txt section .txt-btn a {
 }
 .plus-container .plus h2 {
   font-size: 1rem;
-  margin-top: 40px;
+  margin-top: 55px;
   font-family: "Noto Sans KR", sans-serif;
+  font-size: 1.1rem;
 }
 .plus-container .btn-1 {
   padding: 6px 0;
@@ -247,7 +252,7 @@ aside .txt section .txt-btn a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .plus-container .plus p:nth-of-type(1) {
