@@ -105,7 +105,6 @@ header .ul1:hover .ul2 {
   padding-bottom: 100px;
 }
 .middle section {
-  /* background-color: yellowgreen; */
   position: relative;
   height: 600px;
   width: 100%;
@@ -168,10 +167,7 @@ header .ul1:hover .ul2 {
   position: absolute;
   right: 0;
 }
-/* .middle-img2 {
-  position: absolute;
-  left: 0px;
-} */
+
 .middle-img3 {
   position: absolute;
   right: 0;
@@ -251,9 +247,6 @@ aside .txt a {
   position: absolute;
   bottom: 25px;
   right: 20px;
-
-  /* margin-left: 270px;
-  margin-top: 40px; */
 }
 aside .txt:nth-of-type(1) {
   background-color: rgb(148, 218, 217);

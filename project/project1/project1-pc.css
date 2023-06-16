@@ -118,13 +118,11 @@ header .ul1:hover .ul2 {
   height: 900px;
   width: 70%;
   margin: 100px;
-  /* background-color: blue; */
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
 .middle section img {
-  /* width: 55vw; */
   width: 1000px;
   position: absolute;
   bottom: 0;
