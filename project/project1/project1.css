@@ -10,14 +10,14 @@ header {
   position: fixed;
   top: 0;
   background-color: rgb(255, 255, 255);
-  height: 6rem;
+  height: 5rem;
   width: 100%;
   display: flex;
 }
 header .material-symbols-outlined {
   /* display: none; */
   position: absolute;
-  bottom: 37px;
+  bottom: 29px;
   right: 100px;
 }
 header .header_sns {
@@ -25,11 +25,11 @@ header .header_sns {
 }
 header img {
   position: absolute;
-  top: 7px;
+  top: 16%;
   /* margin-right: 10px; */
   /* margin-top: 5px; */
   right: 80%;
-  height: 90%;
+  height: 70%;
 }
 header .ul1 {
   position: absolute;
@@ -229,7 +229,7 @@ aside .txt section {
   border: 1px solid #e0e0e0;
   background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 280px;
+  height: 320px;
   position: absolute;
   bottom: 0;
   border-radius: 30px;
@@ -266,6 +266,7 @@ aside .txt a {
   line-height: 3rem;
   position: absolute;
   right: 20px;
+  bottom: 20px;
 }
 aside .txt:nth-of-type(1) {
   background-color: rgb(148, 218, 217);
